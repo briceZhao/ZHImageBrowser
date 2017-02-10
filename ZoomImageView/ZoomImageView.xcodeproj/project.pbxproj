@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6589D0861E4D8F3400F3CE79 /* review_normal_0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6589D07D1E4D8F3400F3CE79 /* review_normal_0.jpg */; };
+		6589D0871E4D8F3400F3CE79 /* review_normal_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6589D07E1E4D8F3400F3CE79 /* review_normal_1.jpg */; };
+		6589D0881E4D8F3400F3CE79 /* review_normal_2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6589D07F1E4D8F3400F3CE79 /* review_normal_2.jpg */; };
+		6589D0891E4D8F3400F3CE79 /* review_normal_3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6589D0801E4D8F3400F3CE79 /* review_normal_3.jpg */; };
+		6589D08A1E4D8F3400F3CE79 /* review_normal_4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6589D0811E4D8F3400F3CE79 /* review_normal_4.jpg */; };
+		6589D08B1E4D8F3400F3CE79 /* review_normal_5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6589D0821E4D8F3400F3CE79 /* review_normal_5.jpg */; };
+		6589D08C1E4D8F3400F3CE79 /* review_normal_6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6589D0831E4D8F3400F3CE79 /* review_normal_6.jpg */; };
+		6589D08D1E4D8F3400F3CE79 /* review_normal_8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6589D0841E4D8F3400F3CE79 /* review_normal_8.jpg */; };
+		6589D08E1E4D8F3400F3CE79 /* review_normal_9.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6589D0851E4D8F3400F3CE79 /* review_normal_9.jpg */; };
 		65AB30A71E4881E50011989F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 65AB30A61E4881E50011989F /* main.m */; };
 		65AB30AA1E4881E50011989F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 65AB30A91E4881E50011989F /* AppDelegate.m */; };
 		65AB30AD1E4881E50011989F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65AB30AC1E4881E50011989F /* ViewController.m */; };
@@ -18,6 +27,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6589D07D1E4D8F3400F3CE79 /* review_normal_0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = review_normal_0.jpg; sourceTree = "<group>"; };
+		6589D07E1E4D8F3400F3CE79 /* review_normal_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = review_normal_1.jpg; sourceTree = "<group>"; };
+		6589D07F1E4D8F3400F3CE79 /* review_normal_2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = review_normal_2.jpg; sourceTree = "<group>"; };
+		6589D0801E4D8F3400F3CE79 /* review_normal_3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = review_normal_3.jpg; sourceTree = "<group>"; };
+		6589D0811E4D8F3400F3CE79 /* review_normal_4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = review_normal_4.jpg; sourceTree = "<group>"; };
+		6589D0821E4D8F3400F3CE79 /* review_normal_5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = review_normal_5.jpg; sourceTree = "<group>"; };
+		6589D0831E4D8F3400F3CE79 /* review_normal_6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = review_normal_6.jpg; sourceTree = "<group>"; };
+		6589D0841E4D8F3400F3CE79 /* review_normal_8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = review_normal_8.jpg; sourceTree = "<group>"; };
+		6589D0851E4D8F3400F3CE79 /* review_normal_9.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = review_normal_9.jpg; sourceTree = "<group>"; };
 		65AB30A21E4881E50011989F /* ZoomImageView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZoomImageView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		65AB30A61E4881E50011989F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		65AB30A81E4881E50011989F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -71,7 +89,16 @@
 				65AB30BF1E4886AA0011989F /* AZCollectionViewCell.m */,
 				65AB30AE1E4881E50011989F /* Main.storyboard */,
 				65AB30B11E4881E50011989F /* Assets.xcassets */,
+				6589D07D1E4D8F3400F3CE79 /* review_normal_0.jpg */,
+				6589D07E1E4D8F3400F3CE79 /* review_normal_1.jpg */,
+				6589D07F1E4D8F3400F3CE79 /* review_normal_2.jpg */,
+				6589D0801E4D8F3400F3CE79 /* review_normal_3.jpg */,
+				6589D0811E4D8F3400F3CE79 /* review_normal_4.jpg */,
+				6589D0821E4D8F3400F3CE79 /* review_normal_5.jpg */,
+				6589D0831E4D8F3400F3CE79 /* review_normal_6.jpg */,
 				65AB30BC1E48822B0011989F /* review_normal_7.jpg */,
+				6589D0841E4D8F3400F3CE79 /* review_normal_8.jpg */,
+				6589D0851E4D8F3400F3CE79 /* review_normal_9.jpg */,
 				65AB30B31E4881E50011989F /* LaunchScreen.storyboard */,
 				65AB30B61E4881E50011989F /* Info.plist */,
 				65AB30A51E4881E50011989F /* Supporting Files */,
@@ -146,9 +173,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6589D08B1E4D8F3400F3CE79 /* review_normal_5.jpg in Resources */,
+				6589D0861E4D8F3400F3CE79 /* review_normal_0.jpg in Resources */,
+				6589D08A1E4D8F3400F3CE79 /* review_normal_4.jpg in Resources */,
+				6589D0881E4D8F3400F3CE79 /* review_normal_2.jpg in Resources */,
+				6589D08E1E4D8F3400F3CE79 /* review_normal_9.jpg in Resources */,
 				65AB30B51E4881E50011989F /* LaunchScreen.storyboard in Resources */,
 				65AB30B21E4881E50011989F /* Assets.xcassets in Resources */,
 				65AB30BD1E48822B0011989F /* review_normal_7.jpg in Resources */,
+				6589D08D1E4D8F3400F3CE79 /* review_normal_8.jpg in Resources */,
+				6589D08C1E4D8F3400F3CE79 /* review_normal_6.jpg in Resources */,
+				6589D0871E4D8F3400F3CE79 /* review_normal_1.jpg in Resources */,
+				6589D0891E4D8F3400F3CE79 /* review_normal_3.jpg in Resources */,
 				65AB30B01E4881E50011989F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -283,8 +319,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 4TRSC3PGTH;
 				INFOPLIST_FILE = ZoomImageView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = cn.itcast.ZoomImageView;
+				PRODUCT_BUNDLE_IDENTIFIER = cn.ZoomImageView.BriceZhao;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -295,8 +332,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 4TRSC3PGTH;
 				INFOPLIST_FILE = ZoomImageView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = cn.itcast.ZoomImageView;
+				PRODUCT_BUNDLE_IDENTIFIER = cn.ZoomImageView.BriceZhao;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -320,6 +358,7 @@
 				65AB30BB1E4881E50011989F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

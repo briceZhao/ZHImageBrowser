@@ -31,7 +31,7 @@
 - (void)configSubViews{
     UIScrollView *scrollView = [[UIScrollView alloc] initWithFrame:self.bounds];
     scrollView.delegate = self;
-    scrollView.maximumZoomScale = 5.0;//最大缩放倍数
+    scrollView.maximumZoomScale = 3.0;//最大缩放倍数
     scrollView.minimumZoomScale = 1.0;//最小缩放倍数
     scrollView.showsVerticalScrollIndicator = NO;
     scrollView.showsHorizontalScrollIndicator = NO;
@@ -68,6 +68,7 @@
         }
     }
     self.scrollView.contentSize = CGSizeMake(width, height);
+    [self.scrollView setZoomScale:1.f];
     self.imageView.frame = CGRectMake((maxWidth - width) / 2, (maxHeight - height) / 2, width, height);
     [self.scrollView layoutIfNeeded];
 }

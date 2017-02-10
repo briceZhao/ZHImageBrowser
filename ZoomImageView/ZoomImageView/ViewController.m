@@ -9,8 +9,6 @@
 #import "ViewController.h"
 #import "AZCollectionViewCell.h"
 
-#define randomColor [UIColor colorWithRed:(arc4random() % 256) / 255.0 green:(arc4random() % 256) / 255.0 blue:(arc4random() % 256) / 255.0 alpha:1.0];
-
 @interface ViewController () <UICollectionViewDataSource, UICollectionViewDelegate>
 
 @property (weak, nonatomic) IBOutlet UICollectionView *collectionView;
@@ -37,15 +35,18 @@
     
     AZCollectionViewCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:@"cell" forIndexPath:indexPath];
     
-    cell.image = [UIImage imageWithContentsOfFile:[[NSBundle mainBundle] pathForResource:@"review_normal_7" ofType:@"jpg"]];
-    
     return cell;
 }
 
-
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+#pragma mark - UICollectionViewDelegate -
+- (void)collectionView:(UICollectionView *)collectionView willDisplayCell:(UICollectionViewCell *)cell forItemAtIndexPath:(NSIndexPath *)indexPath {
+    
+    UIImage *image = [UIImage imageWithContentsOfFile:[[NSBundle mainBundle] pathForResource:[NSString stringWithFormat:@"review_normal_%zd", indexPath.row] ofType:@"jpg"]];
+    
+    AZCollectionViewCell *reCell = (AZCollectionViewCell *)cell;
+    
+    reCell.image = image;
+    
 }
 
 
