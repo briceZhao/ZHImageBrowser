@@ -20,6 +20,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    self.collectionView.backgroundColor = [UIColor blackColor];
     self.collectionView.pagingEnabled = YES;
     self.collectionView.dataSource = self;
     self.collectionView.delegate = self;
